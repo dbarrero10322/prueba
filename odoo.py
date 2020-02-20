@@ -4,3 +4,5 @@ class NewModule(models.Model):
     _description = 'New Description'
 
     name = fields.Char()
+    is_new_field = fields.Boolean(string="",  )
+
